@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.homepage {
+    background-image: url("https://store-images.s-microsoft.com/image/apps.54325.13561865366112336.6b8df9e5-478d-43c3-9cdf-5376342324f9.e1e854a5-5421-42a8-b91d-4fef50b70fb1?mode=scale&q=90&h=1080&w=1920");
+    width: 100%x;
+    min-height: 100vh;
+}
+
+.section {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    margin:0 auto;
+    position: relative;
+    top: 200px;
+    
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.intro {
+   
+    
+    padding-top: 50px;
+}
+
+.button_direct {
+    width: 500px;
+    display: table;
+    padding-top: 50px;
+}
+
+.admin {
+    width: 250px;
+    margin: 0%;
+    height: 205px;
+    border-radius: 15px;
+    border: none;
+    border-radius: 0px 0px 0px 15px;
+    background-color: #2A4E96;
+    color: white;
+    font-size: larger;
+    transition: 0.3s;
+
+}
+
+.client {
+    margin: 0%;
+    width: 250px;
+    height: 205px;
+    border-radius: 0px 0px 15px 0px;
+    border: none;
+    background-color: #F99746;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.admin:hover {
+    background-color: red;
+}
+
+.client:hover {
+    background-color: red;
+}
