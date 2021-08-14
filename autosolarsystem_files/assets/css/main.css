@@ -10,7 +10,7 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    background: rgba(255,255,255,1);
+    background: rgba(255,199,33,1);
     opacity: 1;
     position: relative;
     top: 0px;
@@ -31,16 +31,7 @@
     border-bottom-right-radius: 8px;
     overflow: hidden;
   }
-  .v4_2 {
-    width: 100%;
-    height: 100%;
-    background: rgba(255,199,33,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
+  
   .v6_3 {
     width: 688px;
     color: url("../images/v6_3.png");
@@ -64,19 +55,7 @@
     opacity: 1;
     text-align: left;
   }
-  .v7_2 {
-    width: 100%;
-    height: 100%;
-    background: url("../images/v7_2.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 44px;
-    left: 240px;
-    overflow: hidden;
-  }
+  
   .prod_box {
     width: 488px;
     height: 305px;
@@ -175,8 +154,7 @@
     width: 198px;
     color: rgba(249,151,70,1);
     position: absolute;
-    top: 165px;
-    left: 108px;
+    padding: 20px;
     font-family: Open Sans;
     font-weight: Bold;
     font-size: 15px;
@@ -207,16 +185,18 @@
     opacity: 1;
     text-align: left;
   }
-  .v16_1 {
+  .prod_circle {
     width: 222px;
     height: 222px;
     background: rgba(54,59,62,0.800000011920929);
     opacity: 1;
-    position: absolute;
-    top: 187px;
-    left: 186px;
+    position: relative;
     border-radius: 50%;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-top: 50px;
+
+    
   }
   .v16_9 {
     width: 150px;
@@ -274,29 +254,33 @@
     transform: rotate(-90deg);
     overflow: hidden;
   }
-  .v21_2 {
-    width: 65px;
+  .prod_number {
+    
     color: rgba(255,199,33,1);
-    position: absolute;
-    top: 242px;
-    left: 271px;
+    position: relative;
+    text-align: center;
     font-family: Open Sans;
     font-weight: Bold;
     font-size: 50px;
     opacity: 1;
-    text-align: left;
+   
   }
-  .v21_3 {
-    width: 81px;
+  .prod_number2 {
+    
     color: rgba(255,199,33,1);
-    position: absolute;
-    top: 307px;
-    left: 267px;
+    
+    
     font-family: Open Sans;
     font-weight: Bold;
     font-size: 20px;
     opacity: 1;
     text-align: left;
+  }
+
+  .show_prod {
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
   }
   .v21_4 {
     width: 54px;
